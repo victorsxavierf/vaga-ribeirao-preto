@@ -8,6 +8,7 @@ def quadrado_perfeito(x):
 def pertence_fibonacci(numero):
     if numero < 0:
         return False
+    # Fórmula para saber se o número existe na sequência de Fibonnaci
     return (quadrado_perfeito(5 * numero * numero + 4) or
             quadrado_perfeito(5 * numero * numero - 4))
 
